@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "mp2-api",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
